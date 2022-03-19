@@ -1,4 +1,8 @@
-// block-adblock.js v1.0.0 by ichii731 | MIT License
+/**
+ * block-adblock.js v1.0.0
+ * (c)2022 ichii731 | MIT License
+ */ 
+
 class AdDetect {
     // define adsList
     adsList: Array<string> = [
@@ -33,7 +37,7 @@ class AdDetect {
      * initialize function
      */
     private init(): void {
-        //  要素を追加
+        //  add feed element
         document.body.insertAdjacentHTML('beforeend', this.createDiv());
     }
 
@@ -51,7 +55,7 @@ class AdDetect {
      * @return {String} html element
      */
     private createDiv(): string {
-        // adsListを空白をつけてくっつける
+        // Attach adsList with spaces.
         let classStr: string = this.adsList.join(' ');
         let html: string = `<div id="ad_blocker_bait" class="${classStr}"></div>`;
         return html;

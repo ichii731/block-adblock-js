@@ -1,14 +1,15 @@
 {
-  "name": "block-adblock",
-  "version": "1.0.0",
+  "name": "block-adblock-js",
+  "version": "1.0.2",
   "description": "Ultra-simple, ultra-lightweight ad-blocking detection library",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "hot": "tsc -watch",
-    "build": "tsc && uglifyjs ./dist/index.js --mangle -o ./dist/index.min.js"
+    "build": "tsc && uglifyjs ./dist/index.js -o ./dist/index.min.js"
   },
   "author": "ichii731",
   "license": "MIT",
+  "keywords": ["adblock", "ad", "lightweight", "detection", "library"],
   "devDependencies": {
     "typescript": "^4.6.2",
     "uglify": "^0.1.5"
