@@ -1,5 +1,5 @@
 /**
- * block-adblock.js v1.0.0
+ * block-adblock.js v1.0.3
  * (c)2022 ichii731 | MIT License
  */
 class AdDetect {

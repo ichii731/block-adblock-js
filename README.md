@@ -27,7 +27,8 @@ if (AdDetect.check()) {
 jsdelivr: **https://cdn.jsdelivr.net/npm/block-adblock-js**
 
 ```html
-<script type="module">
+<script type="module" defer>
+    // Using defer, below scripts run when the DOM is completely built.
     import AdDetect from 'https://cdn.jsdelivr.net/npm/block-adblock-js';
     if (AdDetect.check()) {
         // with adblock enabled

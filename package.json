@@ -1,6 +1,6 @@
 {
   "name": "block-adblock-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ultra-simple, ultra-lightweight ad-blocking detection library",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,7 +9,18 @@
   },
   "author": "ichii731",
   "license": "MIT",
-  "keywords": ["adblock", "ad", "lightweight", "detection", "library"],
+  "keywords": [
+    "adblock",
+    "ad",
+    "lightweight",
+    "detection",
+    "library"
+  ],
+  "homepage": "https://tools.ic731.net/library/block-adblock-js/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ichii731/block-adblock-js"
+  },
   "devDependencies": {
     "typescript": "^4.6.2",
     "uglify": "^0.1.5"
